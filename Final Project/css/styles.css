@@ -1,0 +1,46 @@
+@import url('https://googleapis.com');
+
+.navbar, .navbar-brand, .nav-link {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+p {
+    text-align: center;
+}
+
+.text-center mb-4 {
+        width: 400px; }
+
+/* Tablet Layout (Screens 768px wide and below) */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        margin: auto
+    }
+}
+
+/* Mobile Layout (Screens 480px wide and below) */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}   .text-center mb-4 {
+        width: 400px;
+}
+
