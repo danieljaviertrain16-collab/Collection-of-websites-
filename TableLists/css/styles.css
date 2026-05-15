@@ -1,0 +1,52 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px auto;
+}
+
+th{
+    border: 0;
+    background-color: blueviolet;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 40px;
+}
+
+td {
+    text-align: center;
+}
+
+td:hover{
+    background-color: blanchedalmond;
+}
+
+th,td {
+    border-bottom: 1px solid green;
+}
+
+ul{
+    list-style-type: upper-alpha;
+}
+
+li{
+    list-style-type: upper-roman;
+}
+
+li {
+    border: 1px solid orangered;
+    list-style-position: outside;
+    text-align: center;
+    text-decoration-color: blueviolet;
+}
+
+ol {
+    background: seagreen;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+li {
+    background: slateblue;
+    padding: 50px;
+    color: aliceblue;
+}

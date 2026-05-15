@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+      <form action="#" method="post">
+          <label for="name">Full Name:</label>
+          <input 
+          type="text" 
+          name="name" 
+          id="name" 
+          size="25"
+          placeholder="Daniel Reed" 
+          required
+          autofocus
+          />
+     <br />
+    <!-- Email Input -->
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" />
+    <br/>
+    <!-- Password Input -->
+     <label for="dob">Date of Birth</label>
+     <input type="email" id="password" name="password" ?>
+     <br />
+     <!-- Date Input -->
+     <label for="dob">Date of Birth:</label>
+     <input type="date" id="dob" name="dob">
+     <br>
+     <!-- Radio Buttons -->
+      <fieldset>
+        <legend>Preferred Contact Method</legend>
+
+        <input type="radio" id="contact-email" name="contact" value="email" />
+        <label for="contact-email">Email</label>
+
+        <input type="radio" id="contact-phone" name="contact" value="phone" /> 
+        <label for="contact-phone">Phone</label>
+      </fieldset>
+      <br />
+      <!-- Checkbox -->
+      <input type="checkbox" id="subscribe" name="subscribe" />
+      <label for="subscribe">Subscribe to Newsletter</label>
+      <br />
+      <!-- Select Dropdown -->
+      <br />
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="">Select One</option>
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+        <option value="mx">Mexico</option>
+      </select>
+      <br />
+
+      <!-- Textarea -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <br />
+      <!-- Hobby  -->
+       <label for="Hobby">Favorite Hobby:</label>
+       <input type="Hobby" id="Hobby" name="Hobby">
+      <!-- Color Picker --> 
+      <label for="color">Favorite Color</label>
+      <input type="color" id="color" name="color" />
+      <br />
+      <!-- Hidden Input -->
+      <input type="hidden" name="form_id" value="contact-form" />
+      <br />
+      <!-- Submit Button -->
+      <button type="submit">Submit Form</button>
+      
+    </form>
+</body>
+</html>

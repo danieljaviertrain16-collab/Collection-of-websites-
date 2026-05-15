@@ -1,0 +1,85 @@
+*{
+  border: 1px solid rgb(0, 0, 0);
+ }
+
+ body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    padding: 20px;
+ }
+
+ form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+ }
+
+ label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="password"],
+ input[type="number"],
+ input[type="date"]
+ input[type="file"]
+ select,
+ textarea
+ {
+    width: 100%;
+    padding 8px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+ }
+
+ textarea{
+    height: 100px;
+    resize: vertical;
+ }
+
+ input[type="radio"],
+ input[type="checkbox"]{
+    margin-right: 5px;
+ }
+
+ fieldset label {
+    display: inline-flex;
+ }
+
+ fieldset {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid white;
+ }
+
+ legend{
+    font-weight: bold;
+ }
+
+ button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+ }
+
+ button:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+ }

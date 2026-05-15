@@ -1,0 +1,56 @@
+body {
+    background-color: darkblue;
+}
+
+h1 {
+border-color: 5px solid beige;
+color: #b91a1a;
+font-size: 40px;
+text-align: center;
+}
+
+h2 {
+border-color: aliceblue;
+color: aquamarine;
+font-size: large;
+text-align: center;
+}
+
+b {
+    color: aliceblue;
+}
+
+p {
+    border-color: #b91a1a;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+}
+
+p.a {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.b {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: gold;
+}
+
+h3 {
+    color: gold;
+    text-align: center;
+}
+
+a {
+    border-color: 5px solid burlywood;
+}
+
+p {
+    text-align: center;
+    padding: 10px
+}

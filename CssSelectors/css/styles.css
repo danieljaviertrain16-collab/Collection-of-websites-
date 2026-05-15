@@ -1,0 +1,60 @@
+p {
+  color: rgb(57, 112, 160);  
+  margin-bottom: 1.2em;
+}
+
+.highlight {
+    background-color:chartreuse;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.warning {
+    color: crimson;
+    font-weight: bold;
+}
+
+#main-title {
+    color: aquamarine;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+a[href*="fifa"] {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+img[alt="soccer"] {
+    border: 3px solid gold;
+}
+
+img[alt="soccer leagues"] {
+    border: 3px solid greenyellow;
+}
+
+img[alt="Champions"] {
+    border: 3px solid green;
+}
+.card p {
+    font-style: oblique;
+}
+
+.menu > li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: aliceblue;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+h2.special.title {
+    background-color: aliceblue;
+    padding: 10px;
+    border-left: 6px solid cadetblue;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: wavy;
+}

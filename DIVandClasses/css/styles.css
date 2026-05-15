@@ -1,0 +1,48 @@
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.primary{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.danger{
+    background-color: rgb(255, 0, 0);
+    color:rgb(255, 255, 255)
+
+}
+
+.large{
+    font-size: 18px;
+}
+
+
+.box{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.info{
+    background-color: aliceblue;
+    border-left: 5px solid cornflowerblue;
+}
+
+.warning{
+    background-color: aliceblue;
+    border-left: 5px solid rgb(255, 0, 0);
+}
+
+.success{
+    background-color: aliceblue;
+    border-left: 5px solid gold;
+}
+

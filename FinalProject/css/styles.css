@@ -1,0 +1,22 @@
+navbar-custom {
+    background-color: #03cea4;
+}
+
+navbar-custom .navbar-brand,
+navbar-custom .nav-link {
+    color: #03cea4
+}
+
+<style>
+.navbar-custom {
+background-color: #ff5733; /* Custom orange */
+color: white;
+}
+.navbar-custom .navbar-brand {
+color: #ffffff;
+}
+</style>
+
+<nav class="navbar navbar-custom">
+<a class="navbar-brand" href="#">Custom Background</a>
+</nav>
